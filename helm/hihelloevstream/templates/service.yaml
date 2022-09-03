@@ -1,0 +1,10 @@
+kind: Service
+apiVersion: v1
+metadata:
+  name: hihelloevstream
+spec:
+  selector:
+    app: hihelloevstream
+  ports:
+    - port: 80
+      targetPort: 8080
